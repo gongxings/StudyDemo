@@ -84,6 +84,11 @@
             <artifactId>spring-test</artifactId>  
             <version>${spring.version}</version>  
         </dependency>  
+        <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
         <!-- mybatis核心包 -->  
         <dependency>  
             <groupId>org.mybatis</groupId>  
@@ -115,7 +120,7 @@
             <artifactId>log4j</artifactId>  
             <version>${log4j.version}</version>  
         </dependency>  
-        
+        <!-- 配置 fastjson-->
         <dependency>  
             <groupId>com.alibaba</groupId>  
             <artifactId>fastjson</artifactId>  
@@ -141,12 +146,6 @@
             <version>7.0</version>  
         </dependency>  
         
-        <!-- 映入JSON -->  
-        <dependency>  
-            <groupId>org.codehaus.jackson</groupId>  
-            <artifactId>jackson-mapper-asl</artifactId>  
-            <version>1.9.13</version>  
-        </dependency>  
         <!-- 上传组件包 -->  
         <dependency>  
             <groupId>commons-fileupload</groupId>  
@@ -165,6 +164,12 @@
             <artifactId>commons-codec</artifactId>  
             <version>1.9</version>  
         </dependency>  
+        <!-- Map工具类 -->
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>SsmStudyDemo</finalName>
